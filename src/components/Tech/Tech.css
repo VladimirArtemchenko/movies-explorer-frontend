@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: #272727;
 }
 
 .tech__container {
@@ -22,7 +22,8 @@
   font-size: 22px;
   line-height: 1.23;
   letter-spacing: -0.04em;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #fff;
+  color: #fff;
   padding-bottom: 22px;
   width: 100%;
   box-sizing: border-box;
@@ -30,6 +31,7 @@
 
 .tech__quantity {
   margin: 90px 0 0;
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 50px;
   line-height: 1.16;
@@ -38,6 +40,7 @@
 
 .tech__about {
   font-weight: 400;
+  color: #fff;
   font-size: 14px;
   line-height: 1.43;
   text-align: center;
@@ -59,7 +62,8 @@
 }
 
 .tech__stack-item {
-  background-color: #e8e8e8;
+  background-color: #303030;
+  color: #fff;
   border-radius: 10px;
 }
 
@@ -100,9 +104,6 @@
 }
 
 @media screen and (max-width: 675px) {
-  .tech {
-    background-color: #fff;
-  }
 
   .tech__container {
     padding: 70px 18px;

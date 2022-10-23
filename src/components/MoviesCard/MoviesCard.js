@@ -14,10 +14,12 @@ const MoviesCard = ({ card }) => {
 
   return (
     <li className={`card ${isSavedMovies && 'card_active_hover'}`}>
-      <img src={card.poster} alt={card.title} className="card__image"></img>
       <div className="card__element">
         <p className="card__title">{card.title}</p>
-        <div className="card__buttons">
+        <p className="card__duration">{card.duration}</p>
+        </div>
+      <img src={card.poster} alt={card.title} className="card__image"></img>
+      <div className="card__buttons">
           {isSavedMovies ? (
             <button
               type="button"
@@ -33,9 +35,6 @@ const MoviesCard = ({ card }) => {
             />
           )}
         </div>
-      </div>
-      <div  className="card__line"></div>
-      <p className="card__duration">{card.duration}</p>
     </li>
   );
 };

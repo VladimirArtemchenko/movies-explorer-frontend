@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  color: #fff;
+  background-color: #202020;
 }
 
 .about-student__container {
@@ -21,7 +23,8 @@
   font-size: 22px;
   line-height: 1.23;
   letter-spacing: -0.04em;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #fff;
+  color: #fff;
   padding-bottom: 22px;
   width: 100%;
   box-sizing: border-box;
@@ -33,6 +36,7 @@
   width: 100%;
   margin-top: 66px;
   gap: 50px;
+
 }
 
 .about-student__bio {
@@ -75,7 +79,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.21;
-  color: #000;
+  color: #fff;;
   text-decoration: none;
   transition: all 0.3s ease;
 }

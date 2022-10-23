@@ -3,11 +3,13 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: #202020;
 }
 
 .info__container {
   max-width: 1280px;
   width: 100%;
+  margin: 0 auto 0;
   padding: 110px 70px;
   display: flex;
   justify-content: space-between;
@@ -22,8 +24,9 @@
   font-size: 22px;
   line-height: 1.23;
   letter-spacing: -0.04em;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #FFFFFF;
   padding-bottom: 23px;
+  color: #FFFFFF;
   width: 100%;
 }
 
@@ -47,6 +50,7 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -0.04em;
+  color: #FFFFFF;
 }
 
 .info__definition-description {
@@ -54,6 +58,7 @@
   font-size: 14px;
   line-height: 1.43;
   margin-top: 26px;
+  color: #FFFFFF;
 }
 
 .info__scheme {
@@ -85,8 +90,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.21;
-  color: #fff;
-  background-color: #2BE080;
+  color: black;
+  background-color: #3DDC84;
 }
 
 .info__frontend-duration {
@@ -97,14 +102,15 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.21;
-  background-color: #f2f2f2;
+  background-color: #303030;
+  color: #f2f2f2;
 }
 
 .info__scheme-title {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.21;
-  color: #a0a0a0;
+  color: #8B8B8B;
 }
 
 @media screen and (max-width: 900px) {

@@ -24,11 +24,11 @@
 .filter__checkbox::after {
   content: "";
   position: absolute;
-  background-color: #ebebeb;
-  border-radius: 10px;
-  left: 131px;
-  width: 36px;
-  height: 20px;
+  top: 3px;
+  background-color: #EBEBEB;
+  border-radius: 20px;
+  width: 34px;
+  height: 14px;
 }
 
 .filter__checkbox:focus {
@@ -38,25 +38,27 @@
 .filter__text {
   margin: 0;
   position: absolute;
+  left: 48px;
   font-weight: 400;
   font-size: 13px;
   line-height: 18px;
+  color: #FFFFFF;
 }
 
 .filter__tumbler {
-  position: absolute;
   background-color: #fff;
-  width: 16px;
-  height: 16px;
+  position: absolute;
+  left: 2px;
+  width: 10px;
+  height: 10px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
-  left: 133px;
   z-index: 1;
   transition: all 0.3s ease;
 }
 
 .filter__checkbox:checked + .filter__tumbler {
-  left: 149px;
+  left: 22px;
 }
 
 .filter__checkbox:checked::after {

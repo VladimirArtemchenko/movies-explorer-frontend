@@ -8,12 +8,11 @@ const Promo = () => {
           <h1 className="promo__title">
           Учебный проект студента факультета Веб&#8209;разработки.
           </h1>
+          <h2 className="promo__subtitle">
+          Листайте ниже, чтобы узнать больше про этот проект и его создателя.
+          </h2>
+          <button className="promo__button">Узнать больше</button>
       </div>
-      <ul className="promo__navigation">
-        <a href="#info" className="promo__link"><li className="promo_navigation_item">О проекте</li></a>
-        <a href="#tech" className="promo__link"><li className="promo_navigation_item">Технологии</li></a>
-        <a href="#aboutStudent" className="promo__link"><li className="promo_navigation_item">Студент</li></a>
-      </ul>
     </section>
   );
 };

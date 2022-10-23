@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: #202020;
 }
 
 .portfolio__container {
@@ -21,7 +22,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.11;
-  color: #a0a0a0;
+  color: #8B8B8B;
 }
 
 .portfolio__projects-list {
@@ -36,7 +37,7 @@
 .portfolio__projects-item {
   display: flex;
   padding-bottom: 19px;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #424242;
   box-sizing: border-box;
   transition: all 0.3s ease;
 }
@@ -56,7 +57,7 @@
   font-size: 30px;
   line-height: 1.67;
   letter-spacing: -0.04em;
-  color: #000;
+  color: #fff;
   width: 100%;
   position: relative;
   transition: all 0.3s ease;

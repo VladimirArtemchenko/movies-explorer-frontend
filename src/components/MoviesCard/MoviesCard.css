@@ -1,6 +1,9 @@
 .card {
   padding: 0;
-  min-width: 270px;
+  background: #222222;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  width: 100%;
 }
 
 .card_active_hover:hover {
@@ -13,13 +16,13 @@
 
 .card__image {
   width: 100%;
-  height: 151px;
+  height: 200px;
 }
 
 .card__element {
   display: flex;
   justify-content: space-between;
-  padding: 14px 0 29px 0;
+  padding: 18px;
 }
 
 .card__title {
@@ -28,18 +31,20 @@
   font-size: 13px;
   font-weight: 500;
   line-height: 16px;
+  color: #fff;
 }
 
 .card__buttons {
-  margin: -2px 0 0;
+  width: 100;
+  padding: 18px 130px 18px;
 }
 
 .card__button {
-  height: 20px;
-  width: 20px;
+  height: 29px;
+  width: 100px;
   padding: 0;
   border: none;
-  border-radius: 36px;
+  border-radius: 30px;
   transition: opacity 0.2s linear;
 }
 
@@ -49,6 +54,7 @@
 }
 
 .card__button_inactive {
+
   background:  url(../../images/icon-saved-inactive.svg) center no-repeat;
 }
 
@@ -57,9 +63,7 @@
 }
 
 .card__button_delete {
-  width: 16px;
-  height: 16px;
-  background-color: #fdfdfd;
+  background:  url(../../images/icon-delete.svg) center no-repeat;
 }
 .card__line{
   width: 100%;
@@ -69,7 +73,7 @@
 
 
 .card__duration {
-  color: #a0a0a0;
+  color: #8B8B8B;
   box-sizing: border-box;
   font-size: 11px;
   line-height: 13px;

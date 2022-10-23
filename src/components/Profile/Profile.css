@@ -1,6 +1,7 @@
 .profile {
   display: flex;
   justify-content: center;
+  background-color: #202020;
 }
 
 .profile__form {
@@ -17,6 +18,7 @@
   font-size: 24px;
   font-weight: 500;
   line-height: 1.21;
+  color: white;
   text-align: center;
 }
 
@@ -29,13 +31,14 @@
 
 .profile__text {
   width: 100%;
+  color: white;
   margin: 0;
   padding: 0 0 16px;
   font-size: 11px;
   font-weight: 500;
   line-height: 1.21;
   box-sizing: border-box;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #424242;
 }
 
 .profile__text:first-of-type {
@@ -54,7 +57,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #424242;
 }
 
 .profile__area:last-of-type {
@@ -78,6 +81,8 @@
   margin: 0;
   padding: 0;
   outline: none;
+  color: white;
+  background-color: #202020;
   border: none;
   text-align: end;
   font-size: 11px;
@@ -88,7 +93,7 @@
   margin: 220px 0 16px;
   border: none;
   background-color: transparent;
-  color: #000;
+  color: white;;
   font-size: 13px;
   line-height: 1.21;
   text-align: center;
