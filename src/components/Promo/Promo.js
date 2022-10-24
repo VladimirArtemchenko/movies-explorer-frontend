@@ -11,7 +11,7 @@ const Promo = () => {
           <h2 className="promo__subtitle">
           Листайте ниже, чтобы узнать больше про этот проект и его создателя.
           </h2>
-          <button className="promo__button">Узнать больше</button>
+          <a href="#info" className="promo__link"><button className="promo__button">Узнать больше</button></a>
       </div>
     </section>
   );

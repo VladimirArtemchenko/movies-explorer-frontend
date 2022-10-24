@@ -27,8 +27,12 @@
   font-size: 12px;
   line-height: 16px;
   align-items: center;
-}
+  cursor: pointer;
 
+}
+.promo__link:hover {
+  opacity: 0.6;
+}
 .promo__title {
   font-weight: 400;
   font-size: 50px;

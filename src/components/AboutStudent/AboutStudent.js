@@ -3,7 +3,7 @@ import avatar from "../../images/Avatar.jpg";
 
 const AboutStudent = () => {
   return (
-    <section id={"aboutStudent"} className="about-student">
+    <section className="about-student">
       <div className="about-student__container">
         <h2 className="about-student__title">Студент</h2>
         <div className="about-student__bio-container">
