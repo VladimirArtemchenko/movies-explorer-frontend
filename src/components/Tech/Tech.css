@@ -104,7 +104,12 @@
 }
 
 @media screen and (max-width: 675px) {
-
+  .tech {
+    background-color: #202020;
+  }
+  .tech__title {
+    border-bottom: 1px solid black;
+  }
   .tech__container {
     padding: 70px 18px;
   }

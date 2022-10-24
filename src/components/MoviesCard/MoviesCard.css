@@ -3,7 +3,6 @@
   background: #222222;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
   border-radius: 6px;
-  width: 100%;
 }
 
 .card_active_hover:hover {
@@ -37,6 +36,8 @@
 .card__buttons {
   width: 100;
   padding: 18px 130px 18px;
+  display: flex;
+  justify-content: center;
 }
 
 .card__button {
@@ -77,7 +78,7 @@
   box-sizing: border-box;
   font-size: 11px;
   line-height: 13px;
-  padding: 6px 0px 0;
+  padding: 0;
   border-top: 1px #E8E8E8;
   margin: 0;
 }
@@ -86,6 +87,9 @@
   .card__image {
     height: 190px;
   }
+  .card {
+    width: 342px;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -93,7 +97,9 @@
     font-size: 12px;
     line-height: 1.21px;
   }
-
+  .card {
+    width: 300px;
+  }
   .card__image {
     height: 168px;
   }
