@@ -15,7 +15,6 @@
 
 .card__image {
   width: 100%;
-  max-width: 360px;
   height: 200px;
 }
 
@@ -86,7 +85,6 @@
 
 @media screen and (max-width: 900px) {
   .card__image {
-    max-width: 342px;
     height: 190px;
   }
   .card {
@@ -103,7 +101,6 @@
     width: 300px;
   }
   .card__image {
-    max-width: 240px;
     height: 168px;
   }
 }
